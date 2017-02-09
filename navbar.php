@@ -16,7 +16,7 @@
     
     <div class="collapse navbar-collapse" id="siteNav">
         <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li <?php if ($currentPage === 'Home') {echo 'class="active"';} ?>><a href="index.php">Home</a></li>
             <li><a href="aboutme.html">About me</a></li>
             <li><a href="skills.html">Skills</a></li>
             <li><a href="workhistory.html">Work history</a></li>
