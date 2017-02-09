@@ -1,0 +1,145 @@
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    height:550px;
+    color: white;
+}
+
+.jumbotron-text {
+    color: white;
+}
+
+h1.jumbotron-heading {
+    margin-top:100px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+p.columnText {
+    font-size: 1.1em;
+}
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+div.tagBtn {
+    background-color: lightblue;
+    width:auto;
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+div.tagBtn:hover {
+    background-color: skyblue;
+}
+
+div.btn-selected {
+    background-color: lightsteelblue;
+}
+
+div.ws-tag {
+    display:inline-block;
+    font-size:18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 2px;
+}
+
+div.ws-item {
+    margin: 5px;
+    padding: 10px;
+    width: 375px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+i.btnicon, i.cleartags {
+    margin-right: 3px;
+    position: relative;
+    top:4px;
+    cursor: pointer;
+}
+
+div.clearTags {
+    background-color: lightblue;
+    width:auto;
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+img.img-thumbnail {
+    padding: 10px;
+}
+
+.panel-default {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h3.hist-head {
+    border-bottom: 1px solid grey;
+}
+
+p.wt-h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.wt-h2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p.wt-h3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+p.wt {
+    font-size: 12px;
+}
+
+ul.wt li.wt {
+
+    font-size: 12px;
+}
+
+.styletable {
+    border: solid 1px black;
+    padding: 3px;
+    margin: 3px;
+    width: 50%;
+    max-width: 500px;
+}
+
+.wt-cont {
+    display: inline-block;
+    width: 400px;
+    margin-left: 200px;
+
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
