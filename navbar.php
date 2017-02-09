@@ -9,7 +9,7 @@
          <span class="icon-bar"></span>
      </button>
      
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="index.php">
         Matt Anderson
       </a>
     </div>
@@ -17,10 +17,10 @@
     <div class="collapse navbar-collapse" id="siteNav">
         <ul class="nav navbar-nav">
             <li <?php if ($currentPage === 'Home') {echo 'class="active"';} ?>><a href="index.php">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="workhistory.html">Work history</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li <?php if ($currentPage === 'About') {echo 'class="active"';} ?>><a href="aboutme.php">About me</a></li>
+            <li <?php if ($currentPage === 'Skills') {echo 'class="active"';} ?>><a href="skills.php">Skills</a></li>
+            <li <?php if ($currentPage === 'Work History') {echo 'class="active"';} ?>><a href="workhistory.php">Work history</a></li>
+            <li <?php if ($currentPage === 'Projects') {echo 'class="active"';} ?>><a href="projects.php">Projects</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="https://twitter.com/matt_anderson0" target="_blank"><img src="images/twitglyph-01-01.png" alt="" height="18px;"></a></li>
