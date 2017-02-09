@@ -1,74 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<?php include ('header.php'); ?>
 <?php $currentPage = 'Home'; ?>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
-    
-    <!--Google Fonts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,700italic,400italic' rel='stylesheet' type='text/css'>
-    
-    <!--My links-->
-    <link rel="stylesheet" href="css/stylesheet.css">
-    
-    <title>Matt Anderson's Portfolio</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/carousel.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
 
 <body>
 
-
 <!--Navigation-->    
-<!--test dynamic nav
- <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#siteNav" aria-expanded="false">
-         <span class="sr-only">Toggle navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-     </button>
-     
-      <a class="navbar-brand" href="index.html">
-        Matt Anderson
-      </a>
-    </div>
-    
-    <div class="collapse navbar-collapse" id="siteNav">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="workhistory.html">Work history</a></li>
-            <li><a href="projects.html">Projects</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://twitter.com/matt_anderson0" target="_blank"><img src="images/twitglyph-01-01.png" alt="" height="18px;"></a></li>
-        </ul>
-    </div>
-  </div>
-</nav> -->
-
 <?php include ('navbar.php'); ?>
 <!--/Navigation-->
 
