@@ -19,7 +19,7 @@
         <?php wp_head(); ?> <!--This is the hook so you can drop in plugins-->
     </head>
     
-    <body <?php body_class(); ?>>
+    <?php echo '<body class="'.join(' ', get_body_class()).'">'.PHP_EOL; ?>
         <!--Navigation is first-->
         <nav class="navbar navbar-default navbar-fixed-top gradient-bg main-theme-nav">
             <div class="container">
