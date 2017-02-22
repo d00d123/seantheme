@@ -1,5 +1,12 @@
 <!--Navigation-->    
-<nav class="navbar navbar-default navbar-fixed-top">
+<script>div.force-down {
+    height: 500px;
+    width: 100%;
+    color:black;
+    display: block;
+}</script>
+<div class="force-down"></div>
+ <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#siteNav" aria-expanded="false">

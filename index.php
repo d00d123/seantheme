@@ -9,7 +9,7 @@
 
 <!--Jumbotron-->
 
-<div class="jumbotron" style="background-image: url(images/BC%20Bridge.jpg);">
+<div class="jumbotron" id="homepage-jumbotron" style="background-image: url(images/BC%20Bridge.jpg);">
     <div class="container">
         <h1 class="jumbotron-heading">Thanks for stopping by!</h1>
         <p class="jumbotron-text">I want to take a moment to introduce myself and show you some of my work.<br/>My name is Matt, and I like working on digital content.<br/>Websites? No problem. JQuery? Let me at it. Just organizing a bunch of content? I'm your guy.</p>
@@ -54,6 +54,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script>
+    $(".navbar").affix({offset: {top: $("#homepage-jumbotron").outerHeight(true)} });
+    </script>
 </body>
 </html>
