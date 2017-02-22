@@ -15,6 +15,7 @@
             $(document).ready(function () {
                 $('li.menu-item').addClass('nav-item');
                 $('li.menu-item > a').addClass('nav-link');
+                $('li.current-menu-item').addClass('active');
             });
         </script>
 
