@@ -2,9 +2,10 @@
 //This is to load in the stylesheets and scripts
 //This is pretty crappy code. My first theme. If you come across this, don't use it as an example.
 function enqueue_customtheme_styles() {
-    
-    wp_enqueue_script( 'bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', array('jquery') ); //loading bootstrap js file. Make sure you have the last parameter to load wordpress's jquery
-    wp_enqueue_style('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'); //loading bootstrap from a CDN
+    //loading Bootstrap 4 - This is in alpha
+    wp_enqueue_script( 'bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js', array('jquery') ); //loading bootstrap js file. Make sure you have the last parameter to load wordpress's jquery
+    wp_enqueue_script( 'tether-js' , '//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js' ); //loading tether.js for bootstrap 4
+    wp_enqueue_style('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'); //loading bootstrap from a CDN
     wp_enqueue_style('customtheme-style', get_stylesheet_uri() ); //loading my styles after bootstrap so they override
 }
 

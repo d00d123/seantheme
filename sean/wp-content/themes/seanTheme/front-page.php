@@ -20,41 +20,7 @@
 
 
 <div class="container">
-    <!--Start the loop-->
-    <div class="row">
-        <div class="col-md-8">
-                <?php if ( have_posts() ) : ?>
-                    <?php while ( have_posts() ) : the_post(); ?>
-                    
-                        <h2>This is a single blog post</h2>
-                        <!--PHP function adds post tags as classes to a div wrapper for the post-->
-                            <div class="<?php
-                                $posttags = get_the_tags();
-                                if ($posttags) {
-                                  foreach($posttags as $tag) {
-                                    echo $tag->name . ' '; 
-                                  }
-                                }
-                                ?>">
-                                <?php the_title(); ?>
-                        <?php the_content(); ?>
-                        
-                        <?php
-                            wp_link_pages( array(
-                                        
-                                    )
-                                );
-                        ?>
-                        </div>
-                    <?php endwhile; ?>
-                    
-                <?php endif; ?>
-                
-            <!--End the loop-->
-            </div> <!--end columns for posts-->
-            
-
-    </div>
+    
 </div>
 
 <?php get_footer(); ?>
