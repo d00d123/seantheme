@@ -5,7 +5,6 @@ function enqueue_customtheme_styles() {
     //loading Bootstrap 4 - This is in alpha
     wp_enqueue_script( 'bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js', array('jquery') ); //loading bootstrap js file. Make sure you have the last parameter to load wordpress's jquery
     wp_enqueue_script( 'tether-js' , '//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js' ); //loading tether.js for bootstrap 4
-    wp_enqueue_script( 'menu-hack' , '//mattpr.info/sean/navhack.js', $in_footer = true); //loading custom js
     wp_enqueue_style('bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'); //loading bootstrap from a CDN
     wp_enqueue_style('customtheme-style', get_stylesheet_uri() ); //loading my styles after bootstrap so they override
 }
@@ -20,7 +19,7 @@ function customtheme_setup() {
         
     //Add theme support for document title tag
     add_theme_support ( 'title-tag' );
-    
+wp_enqueue_script( 'menu-hack' , '//mattpr.info/sean/navhack.js', $in_footer = true); //loading custom js to fix nav    
 }
 
 //add custom nav classes
